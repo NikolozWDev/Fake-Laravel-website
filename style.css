@@ -104,6 +104,17 @@ body {
     gap: 30px;
     width: 95%;
 }
+.for10 {
+    flex-direction: column;
+    align-items: center;
+}
+.helper4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
 
 .middle2-text1 {
     font-size: 30px;
@@ -156,7 +167,7 @@ body {
     border: 1px solid gray;
 }
 .left-box {
-    overflow-y: scroll;
+    overflow-x: scroll;
     display: flex;
 }
 
@@ -239,8 +250,17 @@ body {
     font-size: 40px;
     width: 95%;
 }
+.helper2 {
+    display: flex;
+    justify-content: center;
+}
 .primary-middle4 {
     margin-top: 100px;
+}
+.middle1-div1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 .middle4 {
     display: flex;
@@ -294,6 +314,8 @@ body {
 .bottom {
     width: 95%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 100px;
 }
@@ -304,6 +326,7 @@ body {
     gap: 30px;
     align-items: start;
     justify-content: center;
+    width: 95%;
 }
 .bottom-div1-div1 {
     display: flex;
@@ -328,7 +351,6 @@ body {
 }
 
 
-
 .primary-line {
     display: flex;
     justify-content: center;
@@ -340,6 +362,7 @@ body {
 }
 .primary-bottom2 {
     margin-top: 30px;
+    padding: 0px 0px 50px 0px;
 }
 .bottom2 {
     width: 95%;
@@ -393,5 +416,214 @@ body {
 @media (max-width: 510px) {
     .middle {
         display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 450px) {
+    .for8 {
+        width: 300px;
+        padding: 30px;
+    }
+    .helper1 {
+        width: 100%;
+    }
+    .for12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 500px) {
+    .for13 {
+        font-size: 50px;
+    }
+    .middle2-text1 {
+        font-size: 45px;
+    }
+}
+@media (min-width: 600px) {
+    .primary-middle1 {
+        margin-bottom: 250px;
+    }
+    .primary-middle4 {
+        margin-top: 250px;
+    }
+    .for6 {
+        margin-top: 250px;
+    }
+    .bottom2-text1 {
+        width: 300px;
+    }
+    .for15 {
+        margin-top: 0px;
+    }
+    .middle2-box {
+        width: 300px;
+    }
+    .middle4-box {
+        width: 300px;
+    }
+    
+
+}
+@media (min-width: 650px) {
+    .for13 {
+        font-size: 65px;
+    }
+}
+@media (min-width: 700px) {
+    .for10 {
+        width: 635px;
+    }
+    .for17 {
+        margin-top: 100px;
+    }
+}
+@media (min-width: 800px) {
+    .for16 {
+        width: 40%;
+    }
+    .middle2-right {
+        width: 50%;
+    }
+    .middle2-left {
+        width: 40%;
+    }
+    .for8 {
+        width: 300px;
+    }
+    .for18 {
+        width: 400px;
+    }
+    .middle1 {
+        justify-content: space-around;
+    }
+    .for19 {
+        width: 480px;
+    }
+    .for20 {
+        width: 650px;
+    }
+    .helper4 {
+        width: 100%;
+    }
+    .for21 {
+        width: 680px;
+    }
+    .bottom {
+        align-items: start;
+        display: flex;
+        flex-direction: row;
+    }
+    .bottom-div1 {
+        display: flex;
+        flex-direction: row;
+    }
+    .box {
+        width: 700px;
+        padding: 0px 20px 0px 20px;
+    }
+    .for24 {
+        width: 700px;
+    }
+    .for23 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .helper4 {
+        align-items: center;
+    }
+}
+@media (min-width: 850px) {
+    .box {
+        width: 750px;
+    }
+}
+@media (min-width: 900px) {
+    .box {
+        width: 800px;
+    }
+    .for24 {
+        width: 800px;
+    }
+    .for19 {
+        width: 850px;
+    }
+    .for20 {
+        width: 850px;
+    }
+}
+@media (min-width: 950px) {
+    .box {
+        width: 850px;
+        height: 600px;
+    }
+}
+@media (min-width: 1000px) {
+    .box {
+        width: 900px;
+    }
+}
+@media (min-width: 1050px) {
+    .middle2-right {
+        width: 550px;
+    }
+    .for8 {
+        width: 300px;
+    }
+    .box {
+        width: 950px;
+    }
+}
+@media (min-width: 1100px) {
+    .for25 {
+        width: 1100px;
+    }
+    .for15 {
+        display: flex;
+        justify-content: center;
+    }
+    .box {
+        width: 1000px;
+    }
+}
+@media (min-width: 1150px) {
+    .middle1 {
+        justify-content: center;
+        gap: 105px;
+    }
+    .for10 {
+        gap: 30px;
+    }
+    .middle2-left {
+        width: 430px;
+    }
+    .box {
+        width: 1050px;
+    }
+    .primary-bottom2 {
+        width: 1150px;
+    }
+    .helper6 {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 1200px) {
+    .middle1 {
+        gap: 160px;
+    }
+    .for10 {
+        gap: 30px;
     }
 }
